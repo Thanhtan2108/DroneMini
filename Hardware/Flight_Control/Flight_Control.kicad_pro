@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 1.2,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -211,8 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        1.0,
-        1.5
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -503,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MotorDriverDrone.kicad_pro",
+    "filename": "Flight_Control.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -651,14 +650,6 @@
     "meta": {
       "version": 1
     },
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -666,17 +657,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "MotorDriverDrone.kicad_sch",
+        "filename": "Flight_Control.kicad_sch",
         "name": "Root",
-        "uuid": "88adb8ae-a1fc-43d8-9fc5-61555410fd6f"
+        "uuid": "9d93f511-c95e-45d4-9340-76138e3812d6"
       }
     ],
-    "used_designators": "Q1,D1,R1-2,J1-2,C1-3",
+    "used_designators": "U1-4,#FLG1-3,R1-6,J1-5,C1-11,D1-5,#PWR1-20,Q1-4",
     "variants": []
   },
   "sheets": [
     [
-      "88adb8ae-a1fc-43d8-9fc5-61555410fd6f",
+      "9d93f511-c95e-45d4-9340-76138e3812d6",
       "Root"
     ]
   ],
